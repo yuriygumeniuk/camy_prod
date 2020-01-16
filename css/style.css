@@ -55,9 +55,9 @@ html {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   border: 1px solid #7a9a0b;
   border-radius: 7px;
   background-image: -o-linear-gradient(45deg, #98b827 0%, #a3c330 50%, #98b827 100%);
@@ -387,6 +387,9 @@ html {
 }
 
 .cart-btn {
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   width: 120px;
   height: 50px;
 }
